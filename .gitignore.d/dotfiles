@@ -9,3 +9,8 @@
 # Vim
 !.vim/**
 !.vimrc
+
+# ZSH
+!.oh-my-zsh/custom/**
+!.oh-my-zsh/custom/**
+!.zshrc
