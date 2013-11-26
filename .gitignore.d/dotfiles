@@ -5,3 +5,7 @@
 
 # Byobu
 !.byobu/*
+
+# Vim
+!.vim/**
+!.vimrc
