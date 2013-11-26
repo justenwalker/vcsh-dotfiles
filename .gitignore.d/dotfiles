@@ -1,0 +1,6 @@
+# Ignore everything
+*
+# Don't ignore directories, so we can recurse into them
+!*/
+
+!.gitignore.d/dotfiles
