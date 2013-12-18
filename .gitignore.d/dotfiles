@@ -4,13 +4,20 @@
 !*/
 
 # Byobu
-!.byobu/*
+!.byobu/color
+!.byobu/status
+!.byobu/profile
+!.byobu/windows
+!.byobu/backend
+!.byobu/keybindings
+!.byobu/statusrc
+!.byobu/*.tmux
+!.byobu/*.conf
 
 # Vim
 !.vim/**
 !.vimrc
 
 # ZSH
-!.oh-my-zsh/custom/**
 !.oh-my-zsh/custom/**
 !.zshrc
