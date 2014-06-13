@@ -7,9 +7,12 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="clean"
 
+# Disable setting titles
+export DISABLE_AUTO_TITLE=true
+
 # Add pathmunge utility function
 pathmunge () {
-  if ! echo $PATH | /bin/egrep -q "(^|:)$1($|:)" ; then
+  if ! echo $PATH | grep -E -q "(^|:)$1($|:)" ; then
     if [ "$2" = "after" ] ; then
       PATH=$PATH:$1
     else
@@ -17,6 +20,8 @@ pathmunge () {
     fi
   fi
 }
+
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin"
 
 # Add local bin directory
 pathmunge "$HOME/bin"
