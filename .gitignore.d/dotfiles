@@ -14,6 +14,15 @@
 !.byobu/*.tmux
 !.byobu/*.conf
 
+# GOPATH
+/go/
+
+# Glide Cache
+/.glide/
+
+# RVM
+/.rvm/
+
 # Vim
 !.vim/**
 !.vimrc
