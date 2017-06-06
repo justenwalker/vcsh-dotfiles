@@ -17,6 +17,7 @@
 # Vim
 !.vim/**
 !.vimrc
+#.vim/.netrwhist
 
 # ZSH
 !.oh-my-zsh/custom/**
