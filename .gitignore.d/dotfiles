@@ -3,6 +3,11 @@
 # Don't ignore directories, so we can recurse into them
 !*/
 
+# Ignore project folders
+Library/
+Projects/
+go/
+
 # Byobu
 !.byobu/color
 !.byobu/status
@@ -27,6 +32,9 @@
 !.vim/**
 !.vimrc
 #.vim/.netrwhist
+
+# Ignore VIM history file
+.vim/.netrwhist
 
 # ZSH
 !.oh-my-zsh/custom/**
